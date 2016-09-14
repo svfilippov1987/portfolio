@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+	<title>Nerds - Каталог</title>
+</head>
+<body class="inner-page">
+	<header class="site-header">
+    <div class="container clearfix">
+  		<section class="navbar clearfix">
+  			<nav class="main-navigation clearfix">
+          <div class="logo">
+            <a><img src="img/logo.png" width="141" height="57" alt="Нердс - главная"></a>
+          </div>
+  				<ul>
+  					<li class="active"><a href="#">Студия</a></li>
+  					<li><a href="#">Клиенты</a></li>
+  					<li><a href="#">Магазин</a></li>
+  					<li><a href="#">Контакты</a></li>
+  				</ul>
+  			</nav>
+  			<div class="cart">
+  				<a class="icon icon-cart" href="#">Корзина</a>
+  			</div>
+  		</section>
+      <h1 class="page-title">Добро пожаловать в магазин готовых макетов</h1>
+    </div>
+  </header>
+    <div class="catalog-wrapper container clearfix">
+    <section class="catalog-filter">
+      <form>
+        <fieldset>
+          <legend>Стоимость:</legend>
+          <div class="range">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar" style="width: 70%;"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls clearfix">
+              <label class="min-price">от<input type="text" name="price" value="0"></label>
+              <label class="max-price">до<input type="text" name="price" value="15000"></label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Сетка:</legend>
+            <input type="radio" name="grid" value="responsive" id="grid-1">
+            <label for="grid-1"><span>Адаптивная</span></label>
+            <input type="radio" name="grid" value="fixed" id="grid-2">
+            <label for="grid-2"><span>Фиксированная</span></label>
+            <input type="radio" name="grid" value="adaptive" id="grid-3">
+            <label for="grid-3"><span>Резиновая</span></label>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
+          <input type="checkbox" name="features[]" id="features-1" value="slider">
+          <label for="features-1"><span>Слайдер</span></label>
+          <input type="checkbox" name="features[]" id="features-2" value="features">
+          <label for="features-2"><span>Блок преимуществ</span></label>
+          <input type="checkbox" name="features[]" id="features-3" value="news">
+          <label for="features-3"><span>Новости</span></label>
+          <input type="checkbox" name="features[]" id="features-4" value="gallery">
+          <label for="features-4"><span>Галерея</span></label>
+          <input type="checkbox" name="features[]" id="features-5" value="cart">
+          <label for="features-5"><span>Корзина</span></label>
+        </fieldset>
+        <button class="btn catalog-btn">Показать</button>
+      </form>
+    </section>
+    <main class="catalog clearfix">
+			<div class="sort clearfix">
+				<div class="sort-options">
+					<span class="title">Сортировать:</span>
+					<span class="link">По цене</span>
+					<span class="link active">По типу</span>
+					<span class="link">По функционалу</span>
+				</div>
+				<div class="sort-direction">
+					<span class="down">▼</span>
+					<span class="up active">▲</span>
+				</div>
+			</div>
+			<article class="item">
+				<div class="title-bar">
+					<i class="dot"></i>
+					<i class="dot"></i>
+					<i class="dot"></i>
+				</div>
+				<figure>
+					<img src="img/catalog/catalog-image-1.jpg" width="240" height="240" alt="">
+				</figure>
+				<div class="description">
+					<div class="title">Aviator</div>
+					<p>Одностраничный макет с авторским дизайном</p>
+					<a href="" class="btn">8000 р.</a>
+				</div>
+			</article>
+			<article class="item">
+				<div class="title-bar">
+					<i class="dot"></i>
+					<i class="dot"></i>
+					<i class="dot"></i>
+				</div>
+				<figure>
+					<img src="img/catalog/catalog-image-2.jpg" width="240" height="240" alt="">
+				</figure>
+				<div class="description">
+					<div class="title">Sunset</div>
+					<p>Интернет-магазин с личным кабинетом</p>
+					<a href="" class="btn">10000 р.</a>
+				</div>
+			</article>
+			<article class="item">
+				<div class="title-bar">
+					<i class="dot"></i>
+					<i class="dot"></i>
+					<i class="dot"></i>
+				</div>
+				<figure>
+					<img src="img/catalog/catalog-image-3.jpg" width="240" height="240" alt="">
+				</figure>
+				<div class="description">
+					<div class="title">FORTE</div>
+					<p>Отличный макет для личного блога</p>
+					<a href="" class="btn">5000 р.</a>
+				</div>
+			</article>
+			<article class="item">
+				<div class="title-bar">
+					<i class="dot"></i>
+					<i class="dot"></i>
+					<i class="dot"></i>
+				</div>
+				<figure>
+					<img src="img/catalog/catalog-image-4.jpg" width="240" height="240" alt="">
+				</figure>
+				<div class="description">
+					<div class="title">Modern Organic THAI</div>
+					<p>Сайт для ресторана быстрого питания</p>
+					<a href="" class="btn">12000 р.</a>
+				</div>
+			</article>
+			<article class="item">
+				<div class="title-bar">
+					<i class="dot"></i>
+					<i class="dot"></i>
+					<i class="dot"></i>
+				</div>
+				<figure>
+					<img src="img/catalog/catalog-image-5.jpg" width="240" height="240" alt="">
+				</figure>
+				<div class="description">
+					<div class="title">AVENUE</div>
+					<p>Макет для блога о путешествиях</p>
+					<a href="" class="btn">8000 р.</a>
+				</div>
+			</article>
+			<article class="item">
+				<div class="title-bar">
+					<i class="dot"></i>
+					<i class="dot"></i>
+					<i class="dot"></i>
+				</div>
+				<figure>
+					<img src="img/catalog/catalog-image-6.jpg" width="240" height="240" alt="">
+				</figure>
+				<div class="description">
+					<div class="title">DOVETAIL</div>
+					<p>Интернет-магазин с галереей товаров</p>
+					<a href="" class="btn">14000 р.</a>
+				</div>
+			</article>
+			<ul class="pagination">
+				<li class="active"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li class="next"><a href="#">Следующая</a></li>
+			</ul>
+    </main>
+		<div class="contacts">
+			<h2 class="title">Nёrds Design Studio</h2>
+			<p class="address">
+				191186, Санкт-Петербург,
+				ул. Б. Конюшенная, д. 19/8
+			</p>
+			<p class="phone">
+				тел. +7 (812) 275-75-75
+			</p>
+			<a href="#" class="btn" id="show-feedback">Напишите нам</a>
+		</div>
+	</div>
+
+	<div class="map" id="map"></div>
+<div class="feedback-popup" id="feedback-popup">
+	<form class="feedback-form clearfix" action="#" method="post">
+		<div class="name">
+			<label>
+				<span class="title">Ваше имя:</span>
+				<input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+			</label>
+		</div>
+		<div class="email">
+			<label>
+				<span class="title">Ваш e-mail:</span>
+				<input type="email" name="email" placeholder="Для отправки ответа">
+			</label>
+		</div>
+		<div class="text">
+			<label>
+				<span class="title">Текст письма:</span>
+				<textarea name="letter" rows="8" cols="40" placeholder="В свободной форме"></textarea>
+			</label>
+		</div>
+		<button class="btn">Отправить</button>
+	</form>
+	<div class="close-btn" id="close-feedback-popup"></div>
+</div>
+<div class="popup-overlay"></div>
+	<footer class="site-footer">
+		<div class="container clearfix">
+			<section class="social">
+				<a href="#">v</a>
+				<a href="#">f</a>
+				<a href="#">📷</a>
+			</section>
+			<section class="offer">
+				<div class="title">Давайте дружить, это выгодно!</div>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</section>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUhqrcyK7EIy-oq_lSx3vaF4bWSzK07DA&callback=initMap" async defer></script>
+</body>
+</html>

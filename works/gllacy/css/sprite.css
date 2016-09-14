@@ -1,0 +1,167 @@
+.sprite
+{
+    display: block;
+
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+}
+
+.sprite-icon-cart
+{
+    width: 21px;
+    height: 20px;
+
+    background-position: -5px -5px;
+}
+
+.sprite-icon-form-checkbox
+{
+    width: 20px;
+    height: 20px;
+
+    background-position: -36px -5px;
+}
+
+.sprite-icon-form-checkbox-checked
+{
+    width: 20px;
+    height: 20px;
+
+    background-position: -66px -5px;
+}
+
+.sprite-icon-form-radio
+{
+    width: 20px;
+    height: 20px;
+
+    background-position: -96px -5px;
+}
+
+.sprite-icon-form-radio-checked
+{
+    width: 20px;
+    height: 20px;
+
+    background-position: -126px -5px;
+}
+
+.sprite-icon-form-range-line
+{
+    width: 107px;
+    height: 4px;
+
+    background-position: -5px -35px;
+}
+
+.sprite-icon-form-range-line-background
+{
+    width: 188px;
+    height: 4px;
+
+    background-position: -5px -49px;
+}
+
+.sprite-icon-form-range-marker
+{
+    width: 23px;
+    height: 25px;
+
+    background-position: -156px -5px;
+}
+
+.sprite-icon-heart
+{
+    width: 15px;
+    height: 13px;
+
+    background-position: -5px -63px;
+}
+
+.sprite-icon-login
+{
+    width: 20px;
+    height: 19px;
+
+    background-position: -30px -63px;
+}
+
+.sprite-icon-seo-1
+{
+    width: 47px;
+    height: 47px;
+
+    background-position: -60px -63px;
+}
+
+.sprite-icon-seo-2
+{
+    width: 47px;
+    height: 47px;
+
+    background-position: -117px -63px;
+}
+
+.sprite-icon-seo-3
+{
+    width: 47px;
+    height: 47px;
+
+    background-position: -5px -120px;
+}
+
+.sprite-icon-seo-4
+{
+    width: 47px;
+    height: 47px;
+
+    background-position: -62px -120px;
+}
+
+.sprite-icon-social-fb
+{
+    width: 38px;
+    height: 38px;
+
+    background-position: -119px -120px;
+}
+
+.sprite-icon-social-inst
+{
+    width: 38px;
+    height: 38px;
+
+    background-position: -203px -5px;
+}
+
+.sprite-icon-social-tw
+{
+    width: 39px;
+    height: 38px;
+
+    background-position: -174px -63px;
+}
+
+.sprite-icon-social-vk
+{
+    width: 38px;
+    height: 38px;
+
+    background-position: -174px -111px;
+}
+
+.sprite-slider-indicator
+{
+    width: 21px;
+    height: 21px;
+
+    background-position: -167px -159px;
+}
+
+.sprite-slider-indicator-active
+{
+    width: 21px;
+    height: 21px;
+
+    background-position: -198px -159px;
+}

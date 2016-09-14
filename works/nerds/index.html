@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+	<title>Nerds - Главная</title>
+</head>
+<body>
+	<header class="site-header">
+    <div class="container">
+  		<section class="navbar clearfix">
+  			<nav class="main-navigation clearfix">
+          <div class="logo">
+            <a><img src="img/logo.png" width="141" height="57" alt="Нердс - главная"></a>
+          </div>
+  				<ul>
+  					<li class="active"><a href="#">Студия</a></li>
+  					<li><a href="#">Клиенты</a></li>
+  					<li><a href="#">Магазин</a></li>
+  					<li><a href="#">Контакты</a></li>
+  				</ul>
+  			</nav>
+  			<div class="cart">
+  				<a class="icon icon-cart" href="#">Корзина</a>
+  			</div>
+  		</section>
+  		<section class="slider">
+        <div class="controls">
+          <i class="active"></i>
+          <i></i>
+          <i></i>
+        </div>
+        <div class="slides">
+          <div class="slide active">
+            <div class="text">
+              <div class="title">Долго, дорого, скрупулезно.</div>
+              <p>
+                Математически выверенный дизайн<br>
+								для вашего сайта или мобильного приложения.
+              </p>
+              <a href="#" class="btn">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="text">
+              <div class="title">Любите ли вы математику, как любим ее мы?</div>
+              <p>
+                Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать
+              </p>
+              <a href="#" class="btn">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="text">
+              <div class="title">Только наркотики, только хардкор!</div>
+              <p>
+                Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов
+              </p>
+              <a href="#" class="btn">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+  		</section>
+    </div>
+  </header>
+  <main class="content">
+    <div class="container">
+      <section class="products">
+        <div class="item">
+          <figure class="picture">
+            <img src="img/product1.jpg" width="240" height="124" alt="">
+          </figure>
+          <h2>Веб-сайты</h2>
+          <p>
+            Мир никогда не будет прежним после того как увидит ваш сайт!
+          </p>
+          <a href="#" class="btn">Заказать</a>
+        </div>
+        <div class="item">
+          <figure class="picture">
+            <img src="img/product2.jpg" width="240" height="124" alt="">
+          </figure>
+          <h2>Приложения</h2>
+          <p>
+            Покорите топ-10 приложений<br>
+						в AppStrore и Google Play
+          </p>
+          <a href="#" class="btn color-second">Заказать</a>
+        </div>
+        <div class="item">
+          <figure class="picture">
+            <img src="img/product3.jpg" width="240" height="124" alt="">
+          </figure>
+          <h2>Презентации</h2>
+          <p>
+            Вы даже не подозреваете, насколько вы изумительны!
+          </p>
+          <a href="#" class="btn color-third">Заказать</a>
+        </div>
+      </section>
+      <section class="about clearfix">
+        <div class="block-left">
+          <h1>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
+          <p>
+            Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.
+          </p>
+          <h2>Выполняем заказы на разработку:</h2>
+          <ul>
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div class="block-right">
+          <figure class="logo">
+            <img src="img/logo-about.png" alt="Нердс - с 2004 года">
+          </figure>
+          <h2>Как мы работаем:</h2>
+          <ul>
+            <li>С самоотдачей 146%</li>
+            <li>Соблюдая сроки на 100%</li>
+            <li>По предоплате 50%</li>
+          </ul>
+        </div>
+      </section>
+      <section class="customers">
+        <a href="#">
+          <img src="img/customer1.jpg" width="198" height="37" alt="glukhanko">
+        </a>
+        <a href="#">
+          <img src="img/customer2.jpg" width="199" height="68" alt="html academy">
+        </a>
+        <a href="#">
+          <img src="img/customer3.jpg" width="209" height="90" alt="borodinski">
+        </a>
+      </section>
+      <div class="contacts">
+        <h2 class="title">Nёrds Design Studio</h2>
+        <p class="address">
+          191186, Санкт-Петербург,
+          ул. Б. Конюшенная, д. 19/8
+        </p>
+        <p class="phone">
+          тел. +7 (812) 275-75-75
+        </p>
+        <a href="#" class="btn" id="show-feedback">Напишите нам</a>
+      </div>
+    </div>
+
+		<div class="map" id="map"></div>
+  </main>
+	<div class="feedback-popup" id="feedback-popup">
+		<form class="feedback-form clearfix" action="#" method="post">
+			<div class="name">
+				<label>
+					<span class="title">Ваше имя:</span>
+					<input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+				</label>
+			</div>
+			<div class="email">
+				<label>
+					<span class="title">Ваш e-mail:</span>
+					<input type="email" name="email" placeholder="Для отправки ответа">
+				</label>
+			</div>
+			<div class="text">
+				<label>
+					<span class="title">Текст письма:</span>
+					<textarea name="letter" rows="8" cols="40" placeholder="В свободной форме"></textarea>
+				</label>
+			</div>
+			<button class="btn">Отправить</button>
+		</form>
+		<div class="close-btn" id="close-feedback-popup"></div>
+	</div>
+	<div class="popup-overlay"></div>
+	<footer class="site-footer">
+		<div class="container clearfix">
+			<section class="social">
+				<a href="#">v</a>
+				<a href="#">f</a>
+				<a href="#">📷</a>
+			</section>
+			<section class="offer">
+				<div class="title">Давайте дружить, это выгодно!</div>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</section>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUhqrcyK7EIy-oq_lSx3vaF4bWSzK07DA&callback=initMap" async defer></script>
+</body>
+</html>
