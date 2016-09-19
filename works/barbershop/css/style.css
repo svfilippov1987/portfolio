@@ -71,9 +71,15 @@ body {
   transition: background-color 0.125s;
 }
 
-.main-header a:hover {
+.main-header a[href]:hover {
   background-color: rgba(255, 255, 255, 0.125);
 }
+
+.main-header .header-logo a:hover {
+  background-color: transparent;
+}
+
+
 
 .main-navigation {
   float: left;
@@ -89,22 +95,26 @@ body {
 
 .main-navigation li {
   display: inline-block;
+
+    position: relative;
 }
 
-.main-navigation li.active span {
-  position: relative;
-}
-
-.main-navigation li.active span::after {
+.main-navigation li.active::after {
   content: "";
   position: absolute;
-  top: 41px;
-  left: 0;
-  width: 100%;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
   height: 4px;
   background-color: #fff;
 
 }
+
+.main-header .active a {
+  cursor: default;
+}
+
+
 
 .user-block {
   float: right;
